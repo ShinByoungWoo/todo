@@ -1,11 +1,15 @@
+import GlobalCss from "./components/GlobalCss";
 import Header from "./components/Header";
 import Layout from "./components/Layout";
 
 function App() {
   return (
-    <Layout>
-      <Header />
-    </Layout>
+    <>
+      <GlobalCss />
+      <Layout>
+        <Header />
+      </Layout>
+    </>
   );
 }
 
